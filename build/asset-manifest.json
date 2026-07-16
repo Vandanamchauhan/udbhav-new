@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2c5f6fca.css",
+    "main.js": "/static/js/main.6ed077b0.js",
+    "static/media/DELbot.png": "/static/media/DELbot.dbe339ac7475fab42154.png",
+    "static/media/Kiosk.png": "/static/media/Kiosk.a7ca73bba5879a174614.png",
+    "static/media/DELADbot.png": "/static/media/DELADbot.a33420eb77d690830a7a.png",
+    "static/media/ADbot.jpg": "/static/media/ADbot.2241664073771a6f7121.jpg",
+    "index.html": "/index.html",
+    "main.2c5f6fca.css.map": "/static/css/main.2c5f6fca.css.map",
+    "main.6ed077b0.js.map": "/static/js/main.6ed077b0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c5f6fca.css",
+    "static/js/main.6ed077b0.js"
+  ]
+}
