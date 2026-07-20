@@ -37,7 +37,7 @@ export const About = () => {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="font-body text-base md:text-lg text-zinc-600 leading-relaxed mt-8 max-w-3xl"
         >
-          Udbhav Lab is dedicated to delivering hospitality technology & automation solutions. Our mission is to help businesses embrace digital transformation through innovative, reliable and user-friendly products — built for the real, fast-paced world of service.
+          Udbhav Lab is dedicated to providing self ordering kiosk, Delivery & Advertisement robot solutions. Our mission is to help businesses embrace digital transformation through innovative, reliable and user-friendly products — built for the real, fast-paced world of service.
         </motion.p>
 
         <div className="mt-12 flex flex-wrap gap-3">
