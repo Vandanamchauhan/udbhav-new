@@ -26,7 +26,7 @@ export const Hero = () => {
             transition={{ duration: 0.5 }}
             className="inline-flex items-center gap-2 uppercase tracking-[0.2em] text-xs font-bold text-[#0055FF] bg-orange-50 border border-orange-100 rounded-full px-4 py-2"
           >
-            <Sparkles size={14} /> Hospitality & Industry Automation
+            <Sparkles size={14} /> Hospitality & Industry Robotic Solution
           </motion.span>
 
           <motion.h1
@@ -37,7 +37,7 @@ export const Hero = () => {
           >
             Empowering Hospitality & Industry with
             <br />
-            Intelligent Automation
+            Robotics
           </motion.h1>
 
           <motion.p
