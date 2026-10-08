@@ -122,7 +122,7 @@ export const CONTACT = {
   emailHref: "mailto:info.udbhavlab@gmail.com",
   whatsapp: "https://wa.me/919316493839",
   address:
-    "Shop No 27 first floor, Krishna row house, Bopal - Ghuma Rd, South Bopal, Bopal, Ahmedabad, Gujarat 380058",
+    "Kathwada GIDC, Odhav Industrial estate, Ahmedabad, Gujarat 382430",
   socials: {
     instagram: "https://www.instagram.com/udbhavlab?igsh=aGdkN2g3cXN5bG54",
     linkedin: "https://www.linkedin.com/company/udbhavlab",

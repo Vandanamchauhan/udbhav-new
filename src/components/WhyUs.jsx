@@ -4,26 +4,26 @@ import { motion } from "framer-motion";
 const ITEMS = [
   {
     icon: Lightbulb,
-    title: "Innovation That Drives Growth ",
-    desc: "We combine advanced robotics, intelligent automation, and user-centric design to help businesses operate smarter and serve customers better.",
+    title: "Innovation Made Practical",
+    desc: "Our solutions combine intelligent technology, autonomous navigation, and user-friendly design to make robotics easier to understand, implement, and operate.",
     span: "md:col-span-8",
   },
   {
     icon: ShieldCheck,
-    title: "Increase Operational Efficiency",
-    desc: "Automate repetitive tasks and allow your staff to focus on delivering exceptional customer service.",
+    title: "Robotics That Solves Real Problems",
+    desc: "We focus on identifying repetitive, time-consuming processes and applying the robotics technology to improve productivity, operational efficiency, and workflow.",
     span: "md:col-span-4",
   },
   {
     icon: MousePointerClick,
-    title: "Reduce Operating Costs ",
-    desc: "Intuitive for staff and guests alike — no manual required.",
+    title: "Long-Term Value ",
+    desc: "From understanding your requirements to solution selection, deployment, and support, we aim to build reliable solutions that create lasting value for your business.",
     span: "md:col-span-4",
   },
   {
     icon: Rocket,
-    title: "Dedicated Support",
-    desc: "From consultation and installation to training and after-sales service, we're with you at every step.",
+    title: "Supporting Digital Transformation",
+    desc: "We help businesses take practical steps toward digital transformation by integrating robotics and automation into their existing operations.",
     span: "md:col-span-8",
   },
 ];
@@ -40,7 +40,7 @@ export const WhyUs = () => {
           Why Udbhav Lab
         </span>
         <h2 className="font-display font-bold tracking-tight text-[#0A0A0A] mt-4 text-3xl md:text-4xl lg:text-5xl leading-tight max-w-3xl">
-          To become India's leading provider of intelligent hospitality automation solutions
+          To become India's leading provider of intelligent hospitality & Industry robotics solutions
         </h2>
 
         <div className="mt-14 grid grid-cols-1 md:grid-cols-12 gap-6">
