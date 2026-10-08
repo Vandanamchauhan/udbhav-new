@@ -40,7 +40,7 @@ export const WhyUs = () => {
           Why Udbhav Lab
         </span>
         <h2 className="font-display font-bold tracking-tight text-[#0A0A0A] mt-4 text-3xl md:text-4xl lg:text-5xl leading-tight max-w-3xl">
-          To become India's leading provider of intelligent hospitality & Industry automation solutions
+          To become India's leading provider of intelligent hospitality & Industry robotics solutions
         </h2>
 
         <div className="mt-14 grid grid-cols-1 md:grid-cols-12 gap-6">
