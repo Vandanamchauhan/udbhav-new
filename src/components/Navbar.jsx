@@ -31,11 +31,10 @@ export const Navbar = () => {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
       data-testid="main-navbar"
-      className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300 ${
-        scrolled
+      className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300 ${scrolled
           ? "backdrop-blur-xl bg-white/70 border-b border-zinc-200/60 shadow-[0_8px_30px_rgba(0,0,0,0.04)]"
           : "bg-transparent"
-      }`}
+        }`}
     >
       <nav className="max-w-7xl mx-auto px-6 lg:px-10 h-20 flex items-center justify-between">
         <button

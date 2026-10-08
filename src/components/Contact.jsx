@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, Instagram, Linkedin } from "lucide-react";
+import { Phone, Mail, MapPin, Instagram, Linkedin, Youtube, Facebook } from "lucide-react";
 import { CONTACT, ASSETS } from "../data/content";
 import { motion } from "framer-motion";
 
@@ -18,6 +18,8 @@ export const Contact = () => {
     { icon: Instagram, href: CONTACT.socials.instagram, label: "Instagram", testid: "social-instagram" },
     { icon: Linkedin, href: CONTACT.socials.linkedin, label: "LinkedIn", testid: "social-linkedin" },
     { icon: XIcon, href: CONTACT.socials.x, label: "X", testid: "social-x" },
+    { icon: Youtube, href: CONTACT.socials.youtube, label: "YouTube", testid: "social-youtube" },
+    { icon: Facebook, href: CONTACT.socials.facebook, label: "Facebook", testid: "social-facebook" },
   ];
 
   return (
@@ -79,7 +81,7 @@ export const Contact = () => {
 
           <div className="lg:justify-self-end">
             <p className="font-body text-zinc-400 mb-5">Follow our journey</p>
-            <div className="flex gap-4">
+            <div className="flex flex-wrap gap-3.5">
               {socials.map((s) => {
                 const Icon = s.icon;
                 return (
@@ -90,19 +92,28 @@ export const Contact = () => {
                     rel="noopener noreferrer"
                     aria-label={s.label}
                     data-testid={s.testid}
-                    className="inline-flex h-14 w-14 items-center justify-center rounded-xl border border-white/15 text-white hover:bg-[#0055FF] hover:border-[#0055FF] transition-colors duration-300"
+                    className="inline-flex h-13 w-13 p-3.5 items-center justify-center rounded-xl border border-white/15 text-white hover:bg-[#0055FF] hover:border-[#0055FF] transition-colors duration-300 shadow-sm"
                   >
                     <Icon size={22} />
                   </a>
                 );
               })}
             </div>
+            <img
+              src={ASSETS.dpiitHeader}
+              alt="#startupindia DPIIT"
+              className="hidden sm:block h-20 w-auto object-contain mt-5 opacity-90"
+            // style={{ filter: "brightness(0) invert(1)" }}
+            />
           </div>
         </div>
 
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 py-8 border-t border-white/10">
-          <div className="flex items-center gap-3">
-            <img src={ASSETS.logo} alt="Udbhav Lab" className="h-9 w-9 rounded-md object-cover" />
+          <div className="flex flex-wrap items-center gap-4">
+            <div className="flex items-center gap-3">
+              <img src={ASSETS.logo} alt="Udbhav Lab" className="h-9 w-9 rounded-md object-cover" />
+            </div>
+            <div className="h-6 w-px bg-white/20 hidden sm:block" />
             <span className="font-display font-bold">Udbhav Lab</span>
           </div>
           <p className="font-body text-sm text-zinc-500">

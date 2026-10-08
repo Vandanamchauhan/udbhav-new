@@ -5,7 +5,7 @@ import { About } from "./components/About";
 import { Products } from "./components/Products";
 import { WhyUs } from "./components/WhyUs";
 import { Contact } from "./components/Contact";
-
+import { FloatingWhatsApp } from "./components/FloatingWhatsApp";
 
 function App() {
   return (
@@ -16,9 +16,9 @@ function App() {
       <Products />
       <WhyUs />
       <Contact />
+      <FloatingWhatsApp />
     </>
   );
 }
-
 
 export default App;

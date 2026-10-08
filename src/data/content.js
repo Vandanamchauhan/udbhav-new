@@ -1,17 +1,22 @@
 import ADBot from "../images/ADbot.jpg";
 import DELBot from "../images/DELbot.png";
 import DELADBot from "../images/DELADbot.png";
-import Kiosk from "../images/Kiosk.png";
+import AMR from "../images/AMR.png";
+import AGV from "../images/agv.png";
+import Cleaning from "../images/Cleaning.png";
 import Logo from "../images/logo.jpg";
+import DPIITHeader from "../images/DPIIT-header.png";
 
 export const ASSETS = {
   adBot: ADBot,
   delBot: DELBot,
   delADBot: DELADBot,
-  kiosk: Kiosk,
+  amr: AMR,
+  agv: AGV,
+  cleaning: Cleaning,
   logo: Logo,
+  dpiitHeader: DPIITHeader,
 };
-
 
 export const PRODUCTS = [
   {
@@ -63,20 +68,50 @@ export const PRODUCTS = [
     image: DELADBot,
   },
   {
-    id: "kiosk",
-    name: "Self Ordering Kiosk",
-    tagline: "self-service ordering & payments",
-    description: `A Smart Ordering Kiosk is a self-service touchscreen solution that enables customers to browse products, place orders, and make payments quickly and independently.`,
+    id: "amr",
+    name: "Autonomous Mobile Robot",
+    tagline: "Material Transportation Through Intelligence",
+    description: `AMR is an intelligent self-navigating robot used for material handling, delivery. AMRs make real-time decisions, and choose the best route automatically.`,
     specs: [
-      { label: "Screen Size", value: "32” / 43” / 55”" },
-      { label: "Resolution", value: "1080*1920" },
-      { label: "Touch type", value: "Capacitive 10 point" },
-      { label: "RAM", value: "4 GB" },
-      { label: "Processor", value: "Quad Core" },
-      { label: "Printer", value: "3” Thermal" },
-      { label: "Mounting", value: "Wall/ Floor" },
+      { label: "Payload Capacity", value: "200/ 500/ 1000 kg" },
+      { label: "Clearance", value: "40 mm" },
+      { label: "Cruise speed", value: "1.1 m/s" },
+      { label: "Run time", value: "8 - 9 hr" },
+      { label: "Navigation", value: "Visual SLAM" },
+      { label: "Passage width", value: "1800 mm" },
     ],
-    image: Kiosk,
+    image: AMR,
+  },
+  {
+    id: "agv",
+    name: "Autonomous Guided Vehicle",
+    tagline: "Guided by Precision. Driven by Efficiency",
+    description: `Autonomous Guided Vehicle is an intelligent automated transport solution designed to move materials, goods, and products efficiently within industrial environments.`,
+    specs: [
+      { label: "Payload Capacity", value: "200/ 500 kg" },
+      { label: "Dimensions", value: "680 * 600 * 235 mm" },
+      { label: "Cruise speed", value: "1.5 m/s" },
+      { label: "Run time", value: "8 - 9 hr" },
+      { label: "Navigation", value: "QR Navigation" },
+      { label: "Battery Voltage", value: "48 V" },
+    ],
+    image: AGV,
+  },
+  {
+    id: "commercial-cleaning-robot",
+    name: "Commercial Cleaning Robot",
+    tagline: "Automated cleaning for commercial environments",
+    description: `Commercial Cleaning Robot is an intelligent autonomous solution designed for efficient and consistent floor cleaning. combines smart navigation and advanced cleaning technology to deliver effortless, reliable, and professional cleaning performance.`,
+    specs: [
+      { label: "Function", value: "Sweeping/ Scrubbing/ Mopping/ Drying" },
+      { label: "Suction power", value: "1700 Pa" },
+      { label: "Cruise speed", value: "1.2 m/s" },
+      { label: "Runtime", value: "8 - 9 hr" },
+      { label: "Weight", value: "150 Kg" },
+      { label: "Cleaning Capacity", value: "500 - 1000 m²/hr" },
+      { label: "Navigation", value: "camera + sensors" },
+    ],
+    image: Cleaning,
   },
 ];
 
@@ -85,12 +120,15 @@ export const CONTACT = {
   phoneHref: "tel:+919316493839",
   email: "info.udbhavlab@gmail.com",
   emailHref: "mailto:info.udbhavlab@gmail.com",
+  whatsapp: "https://wa.me/919316493839",
   address:
     "Shop No 27 first floor, Krishna row house, Bopal - Ghuma Rd, South Bopal, Bopal, Ahmedabad, Gujarat 380058",
   socials: {
     instagram: "https://www.instagram.com/udbhavlab?igsh=aGdkN2g3cXN5bG54",
     linkedin: "https://www.linkedin.com/company/udbhavlab",
     x: "https://x.com/udbhv_official",
+    youtube: "https://youtube.com/@udbhavlabrobotics?si=RfQsNVFpbz6jZ2MF",
+    facebook: "https://www.facebook.com/share/1DGofkZZqk/",
   },
 };
 
@@ -101,4 +139,6 @@ export const INDUSTRIES = [
   "Food Courts",
   "Hospitals",
   "Retail",
+  "Warehousing",
+  "Manufacturing",
 ];
