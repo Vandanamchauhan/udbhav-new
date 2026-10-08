@@ -26,7 +26,7 @@ export const Hero = () => {
             transition={{ duration: 0.5 }}
             className="inline-flex items-center gap-2 uppercase tracking-[0.2em] text-xs font-bold text-[#0055FF] bg-orange-50 border border-orange-100 rounded-full px-4 py-2"
           >
-            <Sparkles size={14} /> Hospitality Tech & Automation
+            <Sparkles size={14} /> Hospitality & Industry Automation
           </motion.span>
 
           <motion.h1
@@ -35,7 +35,7 @@ export const Hero = () => {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="font-display font-black tracking-tighter leading-[0.95] text-[#0A0A0A] mt-6 text-4xl md:text-6xl lg:text-7xl"
           >
-            Empowering Hospitality with
+            Empowering Hospitality & Industry with
             <br />
             Intelligent Automation
           </motion.h1>
@@ -46,7 +46,7 @@ export const Hero = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="font-body text-base md:text-lg text-zinc-600 leading-relaxed mt-6 max-w-xl"
           >
-            Udbhav Lab provides robotic solutions to restaurants, cafés, hotels, hospitals, food courts, and retail businesses to increase efficiency, enhance customer experience, and boost revenue through innovative robotic solutions.
+            Udbhav Lab provides robotic solutions to restaurants, cafés, hotels, food courts, warehouses, manufacturing units, and logistics to increase efficiency, enhance customer experience, and boost revenue through innovative robotic solutions.
           </motion.p>
 
           <motion.div
